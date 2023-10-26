@@ -182,6 +182,7 @@ namespace PROG260_Week6
                             // Write data to the output file
                             writer.WriteLine($"Name: {reader.GetValue(0)} Location: {reader.GetValue(1)} Price: {reader.GetValue(2)} Uom: {reader.GetValue(3)} Sell_by_Date: {reader.GetValue(4)}");
                         }
+                        reader.Close();
                     }
                     writer.Close();
                 }
